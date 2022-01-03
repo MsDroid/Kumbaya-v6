@@ -17,7 +17,9 @@ const NotFound = () => {
         
         <div className="main">
           {/* image done help form help */}
-          <img src={base_url + "assets/images/404.jpg"} alt="" />
+          <center>
+          <img src={base_url + "assets/images/404.jpg"} alt="" style={{margin:'100px 0'}}  />
+          </center>
           
           
         </div>

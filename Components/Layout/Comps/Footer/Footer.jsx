@@ -94,7 +94,7 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li style={{ cursor: "pointer" }}>
-                      <Link href='faq'><a>FAQ's</a></Link>
+                      <Link href='/faq'><a>FAQ's</a></Link>
                     </li>
                   </ul>
                 </div>

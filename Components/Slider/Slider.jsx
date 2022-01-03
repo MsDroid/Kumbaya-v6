@@ -1,7 +1,11 @@
 import React from "react";
 import { base_url } from "../../urlConfig";
+const axios = require('axios').default;
 
-const Slider = () => {
+
+
+
+const Slider = (props) => {
   return (
     <>
       <div className="rev_slider_wrapper fullscreen-container">
@@ -18,7 +22,7 @@ const Slider = () => {
               data-title="Slide"
             >
               <img
-                src={base_url + "assets/images/banner/banner-1.jpg"}
+                src={props.sliderOne}
                 alt=""
                 width="1440"
                 height="1029"
@@ -162,7 +166,7 @@ const Slider = () => {
               data-title="Slide"
             >
               <img
-                src={base_url + "assets/images/banner/banner-2.jpg"}
+                src={props.sliderTwo}
                 alt=""
                 width="2000"
                 height="1097"

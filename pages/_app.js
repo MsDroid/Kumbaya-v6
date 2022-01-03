@@ -2,12 +2,13 @@ import Layout from "../Components/Layout/Layout";
 import "../styles/globals.css";
 import Script from "next/script";
 import { base_url } from "../urlConfig";
-
+import { Provider } from 'react-redux'
 
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
+     {/* <Provider> */}
     <Component {...pageProps} />
       <Script id="my-script1" src={base_url + "assets/js/jquery.min.js"} > </Script>
       {/* <Script id="my-script" src={base_url + "assets/js/bootstrap.min.js"} > </Script> */}
@@ -86,6 +87,7 @@ function MyApp({ Component, pageProps }) {
           "assets/js/extensions/revolution.extension.parallax.min.js"
         }
       > </Script>
+      {/* </Provider> */}
      </>
     
   );
