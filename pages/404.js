@@ -5,6 +5,7 @@ import Header from "../Components/Layout/Comps/Header/Header";
 import Spinner from "../Components/Layout/Comps/Spinner/Spinner";
 import { base_url } from "../urlConfig";
 
+//
 const NotFound = () => {
   return (
     <>
